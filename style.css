@@ -12,7 +12,7 @@
     --text-color: #fff;
     --secound-color: #a09dab; 
     --main-color: #f75023;
-    --big-font: 5rem; 
+    --big-font: 4.5rem; 
     --h2-font: 3rem;
     --p-font: 1.1rem; 
 }
@@ -35,8 +35,8 @@ header{
 }
 .logo img{
     max-width: 100%;
-    width: 70px;
-    height: 110px;
+    width: 55px;
+    height: 90px;
 }
 .navlist{
     display: flex;
@@ -105,7 +105,7 @@ section{
     grid-gap: 4rem;
 }
 .home-text h1{
-    margin: 10px 0px 25px; 
+    margin: 0px 0px 25px; 
     font-size: var(--big-font);
     line-height: 1;
     font-weight: 500;
@@ -142,10 +142,35 @@ span{
     margin-right: 22px;
     margin-bottom: 30px;
 }
+.social a:hover{
+    transform: scale(1.1);
+    background: var(--main-color);
+    transition: .5s;
+}
+.btn{
+    display: inline-block;
+    color: var(--bg-color);
+    background: var(--main-color);
+    font-size: var(--p-font);
+    padding: 10px 40px;
+    font-weight: 500px;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.home-img img{
+    max-width: 100%;
+    width: 440px;
+    height: auto;
+}
+
 
 /*https://www.youtube.com/watch?v=f59tGJRs8bM*/
 
-/* 14:17 */
+/* 15:52 */
 
 
 
